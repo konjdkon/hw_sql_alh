@@ -5,7 +5,7 @@ from models import create_tables, Book, Publisher, Shop, Stock, Sale
 
 
 if __name__ == "__main__":
-    DSN = "postgresql://postgres:912greP@localhost:5432/net_db_1"
+    DSN = "postgresql://postgres:______@localhost:5432/net_db_1"
     engine = sqlalchemy.create_engine(DSN)
     create_tables(engine)
 
